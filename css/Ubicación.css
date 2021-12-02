@@ -35,6 +35,19 @@
   margin: 20px 0 0;
 }
 
+#sec-a9ca{
+  background-color: #deffd3;
+  border-color: #deffd3;
+}
+
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 236px;
+}
+
 .u-section-1 .u-text-3 {
   line-height: 2;
   font-size: 1rem;
