@@ -1,3 +1,7 @@
+ .u-section-1 {
+  background-image: none;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 500px;
 }
@@ -89,6 +93,7 @@
   font-size: 0.9375rem;
   border-style: none;
   font-weight: 700;
+  background-image: none;
   margin: 30px auto 0;
   padding: 8px 33px;
 }
