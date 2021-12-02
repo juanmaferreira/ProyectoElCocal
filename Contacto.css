@@ -44,6 +44,10 @@
   background-image: none;
 }
 
+#color{
+  color: gray;
+}
+
 @media (max-width: 767px) {
   .u-section-1 .u-form-1 {
     width: 540px;
@@ -55,3 +59,4 @@
     width: 340px;
   }
 }
+
