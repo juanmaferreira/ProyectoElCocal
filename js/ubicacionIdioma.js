@@ -98,6 +98,56 @@ function cambiarAEspaniol(){
 }
 
 function cambiarAIngles(){
-    document.getElementById("logoNav").src = "images/Logo-Ing.png";
-    document.getElementById("logoPie").src = "images/Logo-Ing.png";
+       //logo
+       document.getElementById("logoNav").src = "images/Logo-Ing.png";
+       document.getElementById("logoPie").src = "images/Logo-Ing.png";
+   
+       //nav bar
+       document.getElementById("Inicio").innerHTML = "Home";
+       document.getElementById("Actividades").innerHTML = "Activities";
+   
+       document.getElementById("Instalaciones").innerHTML = "Facilities";
+       document.getElementById("InstalacionesSub").innerHTML = "Facilities";
+       document.getElementById("Servicios").innerHTML = "Services";
+   
+       document.getElementById("Tarifas").innerHTML = "Fees";
+       document.getElementById("Camping").innerHTML = "Camping";
+       document.getElementById("Cabanias").innerHTML = "Cottage";
+   
+       document.getElementById("Fotos").innerHTML = "Photos";
+       document.getElementById("FotosInst").innerHTML = "Facilities";
+       document.getElementById("FotosServ").innerHTML = "Services";
+       document.getElementById("MasFotos").innerHTML = "More photos";
+   
+       document.getElementById("Ubicacion").innerHTML = "Location";
+       document.getElementById("Contacto").innerHTML = "Contact";
+   
+       //navBar responsive
+       document.getElementById("InicioResp").innerHTML = "Home";
+       document.getElementById("ActividadesResp").innerHTML = "Activities";
+   
+       document.getElementById("InstalacionesResp").innerHTML = "Facilities";
+       document.getElementById("InstalacionesSubResp").innerHTML = "Facilities";
+       document.getElementById("ServiciosResp").innerHTML = "Services";
+   
+       document.getElementById("TarifasResp").innerHTML = "Fees";
+       document.getElementById("CampingResp").innerHTML = "Camping";
+       document.getElementById("CabaniasResp").innerHTML = "Cottage";
+   
+       document.getElementById("FotosID").innerHTML = "Photos";
+       document.getElementById("FotosInstResp").innerHTML = "Facilities";
+       document.getElementById("FotosServResp").innerHTML = "Services";
+       document.getElementById("MasFotosResp").innerHTML = "More photos";
+   
+       document.getElementById("UbicacionResp").innerHTML = "Location";
+       document.getElementById("ContactoResp").innerHTML = "Contact";
+       //cosas individuales de la pagina 
+    document.getElementById("Cuadro1").innerHTML = "Address";
+    document.getElementById("Cuadro2").innerHTML = "Telephone number";
+    document.getElementById("texto1").innerHTML = "Route 9 Km 273,100. Rocha, Uruguay.";
+
+    document.getElementById("infoMapa").innerHTML = "We are waiting for you!";
+    document.getElementById("infoTexto").innerHTML = "You can visit us by taking the 9 km route at 273,100 in the Rocha Department.";
+    document.getElementById("Descripcion").innerHTML = "From Terminal 3 Cruces take a bus of the companies Cynsa, Rutas del Sol or Cot to Chuy. Take the bus to La Esmeralda, get off at km 273.100 of route 9. We ask the guest to give advance notice in order to coordinate the transfer to El Cocal. ";
+   
 }
