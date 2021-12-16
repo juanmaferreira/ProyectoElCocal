@@ -127,17 +127,17 @@ function cambiarAPortugues(){
     `;
 
     document.getElementById("botonFoto1").innerHTML = "VER FOTOS";
-    document.getElementById("tituloServ").innerHTML = "Servicios";
+    document.getElementById("tituloServ").innerHTML = "Serviços";
     document.getElementById("ServCont").innerHTML = `    
     <li>
     <div class="class u-list-icon u-text-custom-color-6">
       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
-    </div>Restaurant.
+    </div>Restaurante.
   </li>
   <li>
     <div class="class u-list-icon u-text-custom-color-6">
       <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
-    </div>Parrilla.
+    </div>Grelha.
   </li>
   <li>
     <div class="class u-list-icon u-text-custom-color-6">
@@ -247,8 +247,124 @@ function cambiarAIngles(){
     document.getElementById("UbicacionResp").innerHTML = "Location";
     document.getElementById("ContactoResp").innerHTML = "Contact";
 
-    //cosas individuales
+      //cosas individuales de la pagina
 
+      document.getElementById("InstalacionesTitulo").innerHTML = "Facilities";
+      document.getElementById("contenidoInst").innerHTML = `
+      <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div> Spacious wooded fields, without electrical installation, because the offer is intended to be as natural as possible.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Carpic cabins. They have beds, bunk beds, mattresses and pillows. They have light, a small deck and a barbecue area. Showers and toilets are on the campsite.
+      <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Barbecues.<br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Toilet cupboards.
+      <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Showers with hot water 24 hours a day.<br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Dishwashing sinks.
+      <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Dishwasher.<br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Parking with surveillance.
+      <br>
+    </li>
+      `;
+  
+      document.getElementById("botonFoto1").innerHTML = "SEE PHOTOS";
+      document.getElementById("tituloServ").innerHTML = "Services";
+      document.getElementById("ServCont").innerHTML = `    
+      <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Restaurant.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Grill.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Pizzeria.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Bakery.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Storage.
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Board games for children and adults.<br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>
+    </li>
+    <li>Books and drawing materials for children.
+    <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Information and entertainment books for adults.
+      <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Gas cooker hire and blankets.
+      <br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>WiFi.<br>
+    </li>
+    <li>
+      <div class="class u-list-icon u-text-custom-color-6">
+        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">➔</div>
+      </div>Travels by van at no additional cost (on arrival and departure).
+      <br>
+    </li>
+      
+      
+      `;
+      document.getElementById("botonFoto2").innerHTML = "SEE PHOTOS";
 }
 
 /*
