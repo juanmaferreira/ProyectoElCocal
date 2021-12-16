@@ -135,7 +135,7 @@ function cambiarAIngles(){
         document.getElementById("CampingResp").innerHTML = "Camping";
         document.getElementById("CabaniasResp").innerHTML = "Cottage";
     
-        document.getElementById("FotosID").innerHTML = "Photos";
+        document.getElementById("Fotos").innerHTML = "Photos";
         document.getElementById("FotosInstResp").innerHTML = "Facilities";
         document.getElementById("FotosServResp").innerHTML = "Services";
         document.getElementById("MasFotosResp").innerHTML = "More photos";
