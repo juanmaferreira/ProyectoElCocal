@@ -430,7 +430,7 @@
 }
 
 .u-section-3 .u-image-1 {
-  background-image: url("images/brouLogo.jpg");
+  background-image: url("../images/brouLogo.jpg");
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -438,7 +438,7 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("images/oca.png");
+  background-image: url("../images/oca.png");
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -446,7 +446,7 @@
 }
 
 .u-section-3 .u-image-3 {
-  background-image: url("images/visa.png");
+  background-image: url("../images/visa.png");
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -454,7 +454,7 @@
 }
 
 .u-section-3 .u-image-4 {
-  background-image: url("images/masterLogo.jpg");
+  background-image: url("../images/masterLogo.jpg");
 }
 
 .u-section-3 .u-container-layout-4 {
