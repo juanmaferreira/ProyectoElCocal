@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="css/Ubicación.css" media="screen">
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
+    
+    <script class="u-script" type="text/javascript" src="js/ubicacionIdioma.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
@@ -55,15 +57,15 @@
           <div class="u-clearfix u-sheet u-sheet-1">
             <img class="u-image u-image-default u-image-1" src="images/Z8LEOI2411.png" alt="" data-image-width="293" data-image-height="62">
             <a href="Inicio.html" data-page-id="2355007575" class="u-image u-logo u-image-2" data-image-width="1326" data-image-height="523" title="Inicio">
-              <img src="images/Logo.png" class="u-logo-image u-logo-image-1">
+              <img id="logoNav" src="images/Logo.png" class="u-logo-image u-logo-image-1">
             </a>
             <p class="u-custom-font u-font-arial u-text u-text-custom-color-1 u-text-default u-text-1">Rocha- Uruguay- América del sur</p>
             <div class="u-align-right u-hidden-md u-hidden-sm u-hidden-xs u-social-icons u-spacing-20 u-social-icons-1">
-              <a class="u-social-url" title="Español" target="_blank" href="https://nicepage.one"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/espania.jpg" alt=""></span>
+              <a class="u-social-url" title="Español" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/espania.jpg" alt="" onclick="cambiarIdiomaES();"></span>
               </a>
-              <a class="u-social-url" title="Português" target="_blank" href="https://nicepage.com/website-templates"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-2"><img src="images/Brasil.png" alt=""></span>
+              <a class="u-social-url" title="Português" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-2"><img src="images/Brasil.png" alt="" onclick="cambiarIdiomaPT();"></span>
               </a>
-              <a class="u-social-url" title="English" target="_blank" href="https://nicepage.com/website-design"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-3"><img src="images/gc597b02fc70a409cc9cc2917942426f1de33173d7a4b18b4c927dce3c57aa933404a5b09e512eba56b6b713cb3dfbf0c_1280.png" alt=""></span>
+              <a class="u-social-url" title="English" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-3"><img src="images/gc597b02fc70a409cc9cc2917942426f1de33173d7a4b18b4c927dce3c57aa933404a5b09e512eba56b6b713cb3dfbf0c_1280.png" alt="" onclick="cambiarIdiomaEN();"></span>
               </a>
             </div>
           </div>
@@ -85,46 +87,46 @@
                 </a>
               </div>
               <div class="u-custom-menu u-nav-container">
-                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Inicio.html" style="padding: 10px 24px;">Inicio</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Actividades.html" style="padding: 10px 24px;">Actividades</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Instalaciones.html" style="padding: 10px 24px;">Instalaciones</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Instalaciones.html#carousel_db6b" data-page-id="76424729">Instalaciones</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Instalaciones.html#sec-407e" data-page-id="76424729">Servicios</a>
+                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a id="Inicio" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Inicio.html" style="padding: 10px 24px;">Inicio</a>
+</li><li class="u-nav-item"><a id="Actividades" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Actividades.html" style="padding: 10px 24px;">Actividades</a>
+</li><li class="u-nav-item"><a id="Instalaciones" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Instalaciones.html" style="padding: 10px 24px;">Instalaciones</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a id="InstalacionesSub" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Instalaciones.html#carousel_db6b" data-page-id="76424729">Instalaciones</a>
+</li><li class="u-nav-item"><a id="Servicios" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Instalaciones.html#sec-407e" data-page-id="76424729">Servicios</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Tarifas.html" style="padding: 10px 24px;">Tarifas</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-3"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Tarifas.html#sec-3a5e" data-page-id="246141875">Camping</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Tarifas.html#sec-9dc5" data-page-id="246141875">Capricabañas</a>
+</li><li class="u-nav-item"><a id="Tarifas" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Tarifas.html" style="padding: 10px 24px;">Tarifas</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-3"><li class="u-nav-item"><a id="Camping" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Tarifas.html#sec-3a5e" data-page-id="246141875">Camping</a>
+</li><li class="u-nav-item"><a id="Cabanias" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Tarifas.html#sec-9dc5" data-page-id="246141875">Capricabañas</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Fotos.html" style="padding: 10px 24px;">Fotos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-4958" data-page-id="1723206092">Instalaciones</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-3f24" data-page-id="1723206092">Servicios</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-e8a7" data-page-id="1723206092">Más fotos</a>
+</li><li class="u-nav-item"><a id="Fotos" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Fotos.html" style="padding: 10px 24px;">Fotos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a id="FotosInst" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-4958" data-page-id="1723206092">Instalaciones</a>
+</li><li class="u-nav-item"><a id="FotosServ" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-3f24" data-page-id="1723206092">Servicios</a>
+</li><li class="u-nav-item"><a id="MasFotos" class="u-active-custom-color-1 u-button-style u-custom-color-2 u-hover-custom-color-3 u-nav-link" href="Fotos.html#sec-e8a7" data-page-id="1723206092">Más fotos</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Ubicación.html" style="padding: 10px 24px;">Ubicación</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Contacto.html" style="padding: 10px 24px;">Contacto</a>
+</li><li class="u-nav-item"><a id="Ubicacion" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Ubicación.html" style="padding: 10px 24px;">Ubicación</a>
+</li><li class="u-nav-item"><a id="Contacto" class="u-active-custom-color-2 u-button-style u-hover-custom-color-3 u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="Contacto.html" style="padding: 10px 24px;">Contacto</a>
 </li></ul>
               </div>
               <div class="u-custom-menu u-nav-container-collapse">
                 <div class="u-align-center u-container-style u-custom-color-2 u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                   <div class="u-inner-container-layout u-sidenav-overflow">
                     <div class="u-menu-close u-menu-close-1"></div>
-                    <ul class="u-align-left u-nav u-popupmenu-items u-spacing-37 u-text-active-white u-text-custom-color-3 u-text-hover-custom-color-3 u-unstyled u-nav-5"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Inicio.html" style="padding: 10px 24px;">Inicio</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Actividades.html" style="padding: 10px 24px;">Actividades</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Instalaciones.html" style="padding: 10px 24px;">Instalaciones</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-6"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Instalaciones.html#carousel_db6b" data-page-id="76424729">Instalaciones</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Instalaciones.html#sec-407e" data-page-id="76424729">Servicios</a>
+                    <ul class="u-align-left u-nav u-popupmenu-items u-spacing-37 u-text-active-white u-text-custom-color-3 u-text-hover-custom-color-3 u-unstyled u-nav-5"><li class="u-nav-item"><a id="InicioResp" class="u-button-style u-nav-link" href="Inicio.html" style="padding: 10px 24px;">Inicio</a>
+</li><li class="u-nav-item"><a id="ActividadesResp" class="u-button-style u-nav-link" href="Actividades.html" style="padding: 10px 24px;">Actividades</a>
+</li><li class="u-nav-item"><a id="InstalacionesResp" class="u-button-style u-nav-link" href="Instalaciones.html" style="padding: 10px 24px;">Instalaciones</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-6"><li class="u-nav-item"><a id="InstalacionesSubResp" class="u-button-style u-nav-link" href="Instalaciones.html#carousel_db6b" data-page-id="76424729">Instalaciones</a>
+</li><li class="u-nav-item"><a id="ServiciosResp" class="u-button-style u-nav-link" href="Instalaciones.html#sec-407e" data-page-id="76424729">Servicios</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Tarifas.html" style="padding: 10px 24px;">Tarifas</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-7"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Tarifas.html#sec-3a5e" data-page-id="246141875">Camping</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Tarifas.html#sec-9dc5" data-page-id="246141875">Capricabañas</a>
+</li><li class="u-nav-item"><a id="TarifasResp" class="u-button-style u-nav-link" href="Tarifas.html" style="padding: 10px 24px;">Tarifas</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-7"><li class="u-nav-item"><a id="CampingResp" class="u-button-style u-nav-link" href="Tarifas.html#sec-3a5e" data-page-id="246141875">Camping</a>
+</li><li class="u-nav-item"><a id="CabaniasResp" class="u-button-style u-nav-link" href="Tarifas.html#sec-9dc5" data-page-id="246141875">Capricabañas</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Fotos.html" style="padding: 10px 24px;">Fotos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-8"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Fotos.html#sec-4958" data-page-id="1723206092">Instalaciones</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Fotos.html#sec-3f24" data-page-id="1723206092">Servicios</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Fotos.html#sec-e8a7" data-page-id="1723206092">Más fotos</a>
+</li><li class="u-nav-item"><a id="FotosResp" class="u-button-style u-nav-link" href="Fotos.html" style="padding: 10px 24px;">Fotos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-8"><li class="u-nav-item"><a id="FotosInstResp" class="u-button-style u-nav-link" href="Fotos.html#sec-4958" data-page-id="1723206092">Instalaciones</a>
+</li><li class="u-nav-item"><a id="FotosServResp" class="u-button-style u-nav-link" href="Fotos.html#sec-3f24" data-page-id="1723206092">Servicios</a>
+</li><li class="u-nav-item"><a id="MasFotosResp" class="u-button-style u-nav-link" href="Fotos.html#sec-e8a7" data-page-id="1723206092">Más fotos</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Ubicación.html" style="padding: 10px 24px;">Ubicación</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacto.html" style="padding: 10px 24px;">Contacto</a>
+</li><li class="u-nav-item"><a id="UbicacionResp" class="u-button-style u-nav-link" href="Ubicación.html" style="padding: 10px 24px;">Ubicación</a>
+</li><li class="u-nav-item"><a id="ContactoResp" class="u-button-style u-nav-link" href="Contacto.html" style="padding: 10px 24px;">Contacto</a>
 </li></ul>
                   </div>
                 </div>
@@ -132,11 +134,11 @@
               </div>
             </nav>
             <div class="u-align-right u-hidden-lg u-hidden-xl u-social-icons u-spacing-20 u-social-icons-2">
-              <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-4"><img src="images/espania.jpg" alt=""></span>
+              <a class="u-social-url" title="facebook" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-4"><img src="images/espania.jpg" alt="" onclick="cambiarIdiomaES();"></span>
               </a>
-              <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-5"><img src="images/Brasil.png" alt=""></span>
+              <a class="u-social-url" title="twitter" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-5"><img src="images/Brasil.png" alt="" onclick="cambiarIdiomaPT();"></span>
               </a>
-              <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-6"><img src="images/gc597b02fc70a409cc9cc2917942426f1de33173d7a4b18b4c927dce3c57aa933404a5b09e512eba56b6b713cb3dfbf0c_1280.png" alt=""></span>
+              <a class="u-social-url" title="instagram" href="Ubicacion.html"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-6"><img src="images/gc597b02fc70a409cc9cc2917942426f1de33173d7a4b18b4c927dce3c57aa933404a5b09e512eba56b6b713cb3dfbf0c_1280.png" alt="" onclick="cambiarIdiomaEN();"></span>
               </a>
             </div>
           </div>
@@ -154,15 +156,15 @@
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-icon u-icon-circle u-text-custom-color-2 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-077e"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-077e" style="enable-background:new 0 0 52 52;"><path style="fill:currentColor;" d="M38.853,5.324L38.853,5.324c-7.098-7.098-18.607-7.098-25.706,0h0
 	C6.751,11.72,6.031,23.763,11.459,31L26,52l14.541-21C45.969,23.763,45.249,11.72,38.853,5.324z M26.177,24c-3.314,0-6-2.686-6-6
 	s2.686-6,6-6s6,2.686,6,6S29.491,24,26.177,24z"></path></svg></span>
-              <h5 class="u-text u-text-custom-color-2 u-text-1">Dirección</h5>
-              <p class="u-text u-text-custom-color-2 u-text-2"> Ruta 9 Km 273,100. Rocha, Uruguay.</p>
+              <h5 id="Cuadro1" class="u-text u-text-custom-color-2 u-text-1">Dirección</h5>
+              <p id="texto1" class="u-text u-text-custom-color-2 u-text-2"> Ruta 9 Km 273,100. Rocha, Uruguay.</p>
             </div>
           </div>
           <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2" data-href="tel:+59844705832">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-icon u-icon-circle u-text-custom-color-2 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 513.64 513.64" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9786"></use></svg><svg class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" style="enable-background:new 0 0 513.64 513.64;"><g><g><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path>
 </g>
 </g></svg></span>
-              <h5 class="u-text u-text-custom-color-2 u-text-3">Telefono</h5>
+              <h5 id="Cuadro2" class="u-text u-text-custom-color-2 u-text-3">Telefono</h5>
               <p class="u-text u-text-custom-color-2 u-text-4">
                 <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-2 u-btn-1" href="tel:+59844705832"> (+598) 4470 5832</a>
               </p>
@@ -188,7 +190,7 @@
 </g><g><g><path d="M331,277.211l-21.973,21.973c-29.239,29.239-76.816,29.239-106.055,0L181,277.211L25.721,431.49    C31.588,434.297,38.073,436,45,436h422c6.927,0,13.412-1.703,19.279-4.51L331,277.211z"></path>
 </g>
 </g></svg></span>
-              <h5 class="u-text u-text-custom-color-2 u-text-7">Email</h5>
+              <h5 id="Cuadro3" class="u-text u-text-custom-color-2 u-text-7">Email</h5>
               <p class="u-text u-text-custom-color-2 u-text-8">
                 <a href="mailto:camping.elcocal@gmail.com" class="u-active-none u-border-1 u-border-active-black u-border-hover-black u-border-palette-4-dark-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-active-black u-text-custom-color-2 u-text-hover-custom-color-3 u-btn-4"> camping.elcocal@gmail.com</a>
               </p>
@@ -201,9 +203,9 @@
           <div class="u-layout-row">
             <div class="u-align-left u-container-style u-custom-color-2 u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
               <div class="u-container-layout u-valign-middle u-container-layout-5">
-                <h3 class="u-text u-text-body-alt-color u-text-default u-text-9">¡Te esperamos!</h3>
-                <blockquote class="u-border-custom-color-5 u-text u-text-default u-text-10"> Podes visitarnos entrando por la ruta 9 km en el 273.100 del Departamento de Rocha</blockquote>
-                <p class="u-text u-text-default u-text-11"> Desde terminal 3 cruces tomar ómnibus de de las empresas Cynsa, Rutas del sol o Cot con destino Chuy. Sacar pasaje hasta La Esmeralda, bajar en el km 273.100 de la ruta 9. Solicitamos al huesped previo aviso con el motivo de coordinar el traslado hasta El Cocal.&nbsp;<br>Este servicio es sin costo adicional.
+                <h3 id="infoMapa" class="u-text u-text-body-alt-color u-text-default u-text-9">¡Te esperamos!</h3>
+                <blockquote class="u-border-custom-color-5 u-text u-text-default u-text-10" id="infoTexto"> Podes visitarnos entrando por la ruta 9 km en el 273.100 del Departamento de Rocha</blockquote>
+                <p class="u-text u-text-default u-text-11" id="Descripcion"> Desde terminal 3 cruces tomar ómnibus de de las empresas Cynsa, Rutas del sol o Cot con destino Chuy. Sacar pasaje hasta La Esmeralda, bajar en el km 273.100 de la ruta 9. Solicitamos al huesped previo aviso con el motivo de coordinar el traslado hasta El Cocal.&nbsp;<br>Este servicio es sin costo adicional.
                 </p>
               </div>
             </div>
@@ -264,7 +266,7 @@
           </a>
         </div>
         <a href="Inicio.html" data-page-id="2355007575" class="u-align-left u-image u-logo u-image-1" data-image-width="1326" data-image-height="523" title="Inicio">
-          <img src="images/Logo.png" class="u-logo-image u-logo-image-1">
+          <img id="logoPie" src="images/Logo.png" class="u-logo-image u-logo-image-1">
         </a>
         <p class="u-align-center-lg u-align-center-xl u-text u-text-1">
           <a href="https://www.google.com/maps/place/El+Cocal+-+Camping+ecol%C3%B3gico/@-34.193283,-53.718059,15z/data=!4m5!3m4!1s0x0:0x71d8a6a36cb37742!8m2!3d-34.193283!4d-53.718059" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-btn-1">Ruta 9 Km 273,100. Rocha, Uruguay.<br>
