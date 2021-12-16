@@ -143,5 +143,14 @@ function cambiarAIngles(){
         document.getElementById("UbicacionResp").innerHTML = "Location";
         document.getElementById("ContactoResp").innerHTML = "Contact";
         //cosas individuales de la pagina 
-        
+        //cosas individuales de la pagina 
+        document.getElementById("tituloForm").innerHTML = "Contact";
+        document.getElementById("msgForm").innerHTML = "Please fill in the form with your questions and we will reply as soon as possible.";
+
+        document.getElementById("name-affc").placeholder = "ENTER YOUR NAME";
+        document.getElementById("email-affc").placeholder = "ENTER YOUR EMAIL ADDRESS";
+        document.getElementById("phone-dec9").placeholder = "ENTER YOUR TELEPHONE NUMBER";
+        document.getElementById("message-affc").placeholder = "ENTER YOUR MESSAGE";
+
+        document.getElementById("enviar").innerHTML = "Send";
 }
