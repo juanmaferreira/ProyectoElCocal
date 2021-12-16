@@ -91,6 +91,51 @@ function cambiarAEspaniol(){
 }
 
 function cambiarAIngles(){
-    document.getElementById("logoNav").src = "images/Logo-Ing.png";
-    document.getElementById("logoPie").src = "images/Logo-Ing.png";
+        //logo
+        document.getElementById("logoNav").src = "images/Logo-Ing.png";
+        document.getElementById("logoPie").src = "images/Logo-Ing.png";
+    
+        //nav bar
+        document.getElementById("Inicio").innerHTML = "Home";
+        document.getElementById("Actividades").innerHTML = "Activities";
+    
+        document.getElementById("Instalaciones").innerHTML = "Facilities";
+        document.getElementById("InstalacionesSub").innerHTML = "Facilities";
+        document.getElementById("Servicios").innerHTML = "Services";
+    
+        document.getElementById("Tarifas").innerHTML = "Fees";
+        document.getElementById("Camping").innerHTML = "Camping";
+        document.getElementById("Cabanias").innerHTML = "Cottage";
+    
+        document.getElementById("Fotos").innerHTML = "Photos";
+        document.getElementById("FotosInst").innerHTML = "Facilities";
+        document.getElementById("FotosServ").innerHTML = "Services";
+        document.getElementById("MasFotos").innerHTML = "More photos";
+    
+        document.getElementById("Ubicacion").innerHTML = "Location";
+        document.getElementById("Contacto").innerHTML = "Contact";
+    
+        //navBar responsive
+        document.getElementById("InicioResp").innerHTML = "Home";
+        document.getElementById("ActividadesResp").innerHTML = "Activities";
+    
+        document.getElementById("InstalacionesResp").innerHTML = "Facilities";
+        document.getElementById("InstalacionesSubResp").innerHTML = "Facilities";
+        document.getElementById("ServiciosResp").innerHTML = "Services";
+    
+        document.getElementById("TarifasResp").innerHTML = "Fees";
+        document.getElementById("CampingResp").innerHTML = "Camping";
+        document.getElementById("CabaniasResp").innerHTML = "Cottage";
+    
+        document.getElementById("FotosID").innerHTML = "Photos";
+        document.getElementById("FotosInstResp").innerHTML = "Facilities";
+        document.getElementById("FotosServResp").innerHTML = "Services";
+        document.getElementById("MasFotosResp").innerHTML = "More photos";
+    
+        document.getElementById("UbicacionResp").innerHTML = "Location";
+        document.getElementById("ContactoResp").innerHTML = "Contact";
+        //cosas individuales de la pagina 
+        document.getElementById("Primera").innerHTML = "Facilities";
+        document.getElementById("Segunda").innerHTML = "Services";
+        document.getElementById("Tercera").innerHTML = "More photos";
 }
