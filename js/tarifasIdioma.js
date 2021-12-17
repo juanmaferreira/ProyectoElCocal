@@ -140,7 +140,7 @@ function cambiarAPortugues(){
 document.getElementById("bloque2").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Taxas de carpicabaña</h2>
     <p class="u-text u-text-2"> Época 2021
-    <br> O preço está em pesos uruguaios.
+    <br>A taxa mencionada abaixo é por dia. O preço está em pesos uruguaios.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
@@ -353,7 +353,7 @@ function cambiarAIngles(){
 document.getElementById("bloque2").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Prices of carpicabañas</h2>
     <p class="u-text u-text-2"> Season 2021
-    <br>The price is in Uruguayan pesos.
+    <br>The rate mentioned below is per day. The price is in Uruguayan pesos.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
