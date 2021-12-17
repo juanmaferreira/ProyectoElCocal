@@ -351,7 +351,7 @@ function cambiarAIngles(){
     <a href="Instalaciones.html#sec-407e" data-page-id="76424729" class="u-active-grey-40 u-border-none u-btn u-btn-round u-button-style u-grey-25 u-hover-grey-30 u-radius-50 u-btn-8">SEE SERVICES
     </a>`;
 document.getElementById("bloque2").innerHTML = `
-    <h2 class="u-text u-text-default u-text-1">Prices of Capricabañas</h2>
+    <h2 class="u-text u-text-default u-text-1">Prices of Carpicabañas</h2>
     <p class="u-text u-text-2"> Season 2021
     <br>The price is in Uruguayan pesos.
     </p>
