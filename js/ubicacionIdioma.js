@@ -46,7 +46,7 @@ function cambiarAPortugues(){
 
     document.getElementById("Tarifas").innerHTML = "Tarifas";
     document.getElementById("Camping").innerHTML = "Camping";
-    document.getElementById("Cabanias").innerHTML = "Chalé";
+    document.getElementById("Cabanias").innerHTML = "Carpicabañas";
 
     document.getElementById("Fotos").innerHTML = "Fotos";
     document.getElementById("FotosInst").innerHTML = "Instalações";
@@ -66,7 +66,7 @@ function cambiarAPortugues(){
 
     document.getElementById("TarifasResp").innerHTML = "Tarifas";
     document.getElementById("CampingResp").innerHTML = "Camping";
-    document.getElementById("CabaniasResp").innerHTML = "Chalé";
+    document.getElementById("CabaniasResp").innerHTML = "Carpicabañas";
 
     document.getElementById("FotosResp").innerHTML = "Fotos";
     document.getElementById("FotosInstResp").innerHTML = "Instalações";
@@ -112,7 +112,7 @@ function cambiarAIngles(){
    
        document.getElementById("Tarifas").innerHTML = "Fees";
        document.getElementById("Camping").innerHTML = "Camping";
-       document.getElementById("Cabanias").innerHTML = "Cottage";
+       document.getElementById("Cabanias").innerHTML = "Carpicabañas";
    
        document.getElementById("Fotos").innerHTML = "Photos";
        document.getElementById("FotosInst").innerHTML = "Facilities";
@@ -132,7 +132,7 @@ function cambiarAIngles(){
    
        document.getElementById("TarifasResp").innerHTML = "Fees";
        document.getElementById("CampingResp").innerHTML = "Camping";
-       document.getElementById("CabaniasResp").innerHTML = "Cottage";
+       document.getElementById("CabaniasResp").innerHTML = "Carpicabañas";
    
        document.getElementById("Fotos").innerHTML = "Photos";
        document.getElementById("FotosInstResp").innerHTML = "Facilities";

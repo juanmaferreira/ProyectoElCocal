@@ -46,7 +46,7 @@ function cambiarAPortugues(){
 
     document.getElementById("Tarifas").innerHTML = "Tarifas";
     document.getElementById("Camping").innerHTML = "Camping";
-    document.getElementById("Cabanias").innerHTML = "Chalé";
+    document.getElementById("Cabanias").innerHTML = "Carpicabañas";
 
     document.getElementById("Fotos").innerHTML = "Fotos";
     document.getElementById("FotosInst").innerHTML = "Instalações";
@@ -66,7 +66,7 @@ function cambiarAPortugues(){
 
     document.getElementById("TarifasResp").innerHTML = "Tarifas";
     document.getElementById("CampingResp").innerHTML = "Camping";
-    document.getElementById("CabaniasResp").innerHTML = "Chalé";
+    document.getElementById("CabaniasResp").innerHTML = "Carpicabañas";
 
     document.getElementById("FotosResp").innerHTML = "Fotos";
     document.getElementById("FotosInstResp").innerHTML = "Instalações";
@@ -138,16 +138,16 @@ function cambiarAPortugues(){
     <a href="Instalaciones.html#sec-407e" data-page-id="76424729" class="u-active-grey-40 u-border-none u-btn u-btn-round u-button-style u-grey-25 u-hover-grey-30 u-radius-50 u-btn-8">VER SERVIÇOS
     </a>`;
 document.getElementById("bloque2").innerHTML = `
-    <h2 class="u-text u-text-default u-text-1">Taxas de Capricabañas</h2>
+    <h2 class="u-text u-text-default u-text-1">Taxas de Carpicabaña</h2>
     <p class="u-text u-text-2"> Época 2021
-    <br>As tarifas mencionadas abaixo são por pessoa e por dia. O preço está em pesos uruguaios.
+    <br> O preço está em pesos uruguaios.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
         <div class="u-layout-row">
           <div class="u-align-center u-container-style u-custom-color-3 u-layout-cell u-size-30 u-layout-cell-1">
             <div class="u-container-layout u-container-layout-1">
-              <h4 class="u-text u-text-3">Até 2 pessoas
+              <h4 class="u-text u-text-3">Para 2 pessoas
               </h4>
               <h2 class="u-text u-text-4">$U 1500</h2>
               <a href="https://api.whatsapp.com/send/?phone=59899824175&amp;text&amp;app_absent=0" class="u-btn u-btn-round u-button-style u-custom-color-6 u-hover-custom-color-7 u-radius-50 u-btn-1" target="_blank"><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 512 512" style="width: 1em; height: 1em;"><g><path d="M13.5,188.8c5,69.9,178.9,285.9,246,305.7c31.5,9.3,64.7,14,97.3,10c22.6-2.8,50-12.1,71-27.1l-115.4-142   c-6.4,5.4-11.2,12.4-13,20.7c-2.6,11.7-0.3,26.5-10,33.6c-7,5.1-16.7,3.2-25,0.7c-40.7-12.4-144.7-141.7-148.1-184.1   c-0.7-8.6-0.5-18.5,6-24.3c9-8,22.9-2.5,34.9-2.6c8.1,0,15.7-3,22.2-7.7L64.2,29.9C46,47.1,31.9,70.9,24.6,91.6   C13.6,122.6,11.2,156.1,13.5,188.8z" id="XMLID_6_"></path><path d="M191.4,79.1c-8.4-22.8-19.9-45.6-39.5-60.1c-27.6-20.4-55-14.6-77.7,2.5l114.7,141.2   c5.2-6.5,9-14.4,10.8-22.5C204.1,119.8,198.6,98.6,191.4,79.1z" id="XMLID_5_"></path><path d="M347,323.1c-8,0-16.1,1.9-23.4,5.3L438,469.3c20.2-18.4,30.6-43.3,17-73.6c-10-22.2-29.8-38.3-50.3-51.4   C387.3,333.1,367.8,323.1,347,323.1z" id="XMLID_4_"></path><g><path d="M324.5,13.3c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.8c0.7,0.1,1.3,0.1,2,0.2c84.9,8.8,146.9,85,138.1,169.9    l39.7,4.1C509.3,120.1,431.5,24.4,324.5,13.3z" id="XMLID_3_"></path><path d="M316.3,92.8c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.7c0.7,0.1,1.3,0.1,2,0.2c41.1,4.2,71.1,41.1,66.8,82.2    l39.7,4.1C425.3,155.9,379.3,99.3,316.3,92.8z" id="XMLID_2_"></path><path d="M269.7,203.5c-2,19.2,12,36.4,31.2,38.4c19.2,2,36.4-12,38.4-31.2c2-19.2-12-36.4-31.2-38.4    C288.9,170.3,271.7,184.3,269.7,203.5z" id="XMLID_1_"></path>
@@ -161,7 +161,7 @@ document.getElementById("bloque2").innerHTML = `
           </div>
           <div class="u-align-center u-container-style u-custom-color-1 u-layout-cell u-size-30 u-layout-cell-2">
             <div class="u-container-layout u-container-layout-2">
-              <h4 class="u-text u-text-5">Até 4 pessoas</h4>
+              <h4 class="u-text u-text-5">Para 4 pessoas</h4>
               <h2 class="u-text u-text-6">$U 2500</h2>
               <a href="https://api.whatsapp.com/send/?phone=59899824175&amp;text&amp;app_absent=0" class="u-btn u-btn-round u-button-style u-custom-color-6 u-hover-custom-color-7 u-radius-50 u-btn-3" target="_blank"><span class="u-icon u-icon-3"><svg class="u-svg-content" viewBox="0 0 512 512" style="width: 1em; height: 1em;"><g><path d="M13.5,188.8c5,69.9,178.9,285.9,246,305.7c31.5,9.3,64.7,14,97.3,10c22.6-2.8,50-12.1,71-27.1l-115.4-142   c-6.4,5.4-11.2,12.4-13,20.7c-2.6,11.7-0.3,26.5-10,33.6c-7,5.1-16.7,3.2-25,0.7c-40.7-12.4-144.7-141.7-148.1-184.1   c-0.7-8.6-0.5-18.5,6-24.3c9-8,22.9-2.5,34.9-2.6c8.1,0,15.7-3,22.2-7.7L64.2,29.9C46,47.1,31.9,70.9,24.6,91.6   C13.6,122.6,11.2,156.1,13.5,188.8z" id="XMLID_6_"></path><path d="M191.4,79.1c-8.4-22.8-19.9-45.6-39.5-60.1c-27.6-20.4-55-14.6-77.7,2.5l114.7,141.2   c5.2-6.5,9-14.4,10.8-22.5C204.1,119.8,198.6,98.6,191.4,79.1z" id="XMLID_5_"></path><path d="M347,323.1c-8,0-16.1,1.9-23.4,5.3L438,469.3c20.2-18.4,30.6-43.3,17-73.6c-10-22.2-29.8-38.3-50.3-51.4   C387.3,333.1,367.8,323.1,347,323.1z" id="XMLID_4_"></path><g><path d="M324.5,13.3c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.8c0.7,0.1,1.3,0.1,2,0.2c84.9,8.8,146.9,85,138.1,169.9    l39.7,4.1C509.3,120.1,431.5,24.4,324.5,13.3z" id="XMLID_3_"></path><path d="M316.3,92.8c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.7c0.7,0.1,1.3,0.1,2,0.2c41.1,4.2,71.1,41.1,66.8,82.2    l39.7,4.1C425.3,155.9,379.3,99.3,316.3,92.8z" id="XMLID_2_"></path><path d="M269.7,203.5c-2,19.2,12,36.4,31.2,38.4c19.2,2,36.4-12,38.4-31.2c2-19.2-12-36.4-31.2-38.4    C288.9,170.3,271.7,184.3,269.7,203.5z" id="XMLID_1_"></path>
 </g>
@@ -183,7 +183,7 @@ document.getElementById("bloque2").innerHTML = `
     document.getElementById("bloque3").innerHTML = `
     <h3 class="u-text u-text-custom-color-6 u-text-1">Reservas</h3>
         <p class="u-text u-text-2"> Crianças com menos de 5 anos de idade livres.<br>As crianças entre os 6 e 12 anos de idade têm um desconto de 50%.<br>
-        Moeda estrangeira é aceita.&nbsp;<br>Os cartões de crédito são aceites. Trabalhamos com Visa, Mastercard e Oca.<br>
+        São aceitos dólares americanos ou pesos uruguaios.&nbsp;<br>Os cartões de crédito são aceites. Trabalhamos com Visa, Mastercard e Oca.<br>
         </p>
         <a href="https://www.brou.com.uy/cotizaciones" class="u-btn u-button-style u-none u-text-active-custom-color-2 u-text-custom-color-1 u-text-hover-custom-color-3 u-btn-1" target="_blank">VER COTAÇÃO DA DATA (BROU) <span class="u-text-custom-color-2">
             <span class="u-text-custom-color-1"></span>
@@ -260,7 +260,7 @@ function cambiarAIngles(){
     
         document.getElementById("Tarifas").innerHTML = "Fees";
         document.getElementById("Camping").innerHTML = "Camping";
-        document.getElementById("Cabanias").innerHTML = "Cottage";
+        document.getElementById("Cabanias").innerHTML = "Carpicabañas";
     
         document.getElementById("Fotos").innerHTML = "Photos";
         document.getElementById("FotosInst").innerHTML = "Facilities";
@@ -280,7 +280,7 @@ function cambiarAIngles(){
     
         document.getElementById("TarifasResp").innerHTML = "Fees";
         document.getElementById("CampingResp").innerHTML = "Camping";
-        document.getElementById("CabaniasResp").innerHTML = "Cottage";
+        document.getElementById("CabaniasResp").innerHTML = "Carpicabañas";
     
         document.getElementById("Fotos").innerHTML = "Photos";
         document.getElementById("FotosInstResp").innerHTML = "Facilities";
@@ -353,14 +353,14 @@ function cambiarAIngles(){
 document.getElementById("bloque2").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Prices of Capricabañas</h2>
     <p class="u-text u-text-2"> Season 2021
-    <br>The rates mentioned below are per person per day. The price is in Uruguayan pesos.
+    <br>The price is in Uruguayan pesos.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
         <div class="u-layout-row">
           <div class="u-align-center u-container-style u-custom-color-3 u-layout-cell u-size-30 u-layout-cell-1">
             <div class="u-container-layout u-container-layout-1">
-              <h4 class="u-text u-text-3">Up to 2 people
+              <h4 class="u-text u-text-3"> For 2 people
               </h4>
               <h2 class="u-text u-text-4">$U 1500</h2>
               <a href="https://api.whatsapp.com/send/?phone=59899824175&amp;text&amp;app_absent=0" class="u-btn u-btn-round u-button-style u-custom-color-6 u-hover-custom-color-7 u-radius-50 u-btn-1" target="_blank"><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 512 512" style="width: 1em; height: 1em;"><g><path d="M13.5,188.8c5,69.9,178.9,285.9,246,305.7c31.5,9.3,64.7,14,97.3,10c22.6-2.8,50-12.1,71-27.1l-115.4-142   c-6.4,5.4-11.2,12.4-13,20.7c-2.6,11.7-0.3,26.5-10,33.6c-7,5.1-16.7,3.2-25,0.7c-40.7-12.4-144.7-141.7-148.1-184.1   c-0.7-8.6-0.5-18.5,6-24.3c9-8,22.9-2.5,34.9-2.6c8.1,0,15.7-3,22.2-7.7L64.2,29.9C46,47.1,31.9,70.9,24.6,91.6   C13.6,122.6,11.2,156.1,13.5,188.8z" id="XMLID_6_"></path><path d="M191.4,79.1c-8.4-22.8-19.9-45.6-39.5-60.1c-27.6-20.4-55-14.6-77.7,2.5l114.7,141.2   c5.2-6.5,9-14.4,10.8-22.5C204.1,119.8,198.6,98.6,191.4,79.1z" id="XMLID_5_"></path><path d="M347,323.1c-8,0-16.1,1.9-23.4,5.3L438,469.3c20.2-18.4,30.6-43.3,17-73.6c-10-22.2-29.8-38.3-50.3-51.4   C387.3,333.1,367.8,323.1,347,323.1z" id="XMLID_4_"></path><g><path d="M324.5,13.3c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.8c0.7,0.1,1.3,0.1,2,0.2c84.9,8.8,146.9,85,138.1,169.9    l39.7,4.1C509.3,120.1,431.5,24.4,324.5,13.3z" id="XMLID_3_"></path><path d="M316.3,92.8c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.7c0.7,0.1,1.3,0.1,2,0.2c41.1,4.2,71.1,41.1,66.8,82.2    l39.7,4.1C425.3,155.9,379.3,99.3,316.3,92.8z" id="XMLID_2_"></path><path d="M269.7,203.5c-2,19.2,12,36.4,31.2,38.4c19.2,2,36.4-12,38.4-31.2c2-19.2-12-36.4-31.2-38.4    C288.9,170.3,271.7,184.3,269.7,203.5z" id="XMLID_1_"></path>
@@ -374,7 +374,7 @@ document.getElementById("bloque2").innerHTML = `
           </div>
           <div class="u-align-center u-container-style u-custom-color-1 u-layout-cell u-size-30 u-layout-cell-2">
             <div class="u-container-layout u-container-layout-2">
-              <h4 class="u-text u-text-5">Up to 4 people</h4>
+              <h4 class="u-text u-text-5">For 4 people</h4>
               <h2 class="u-text u-text-6">$U 2500</h2>
               <a href="https://api.whatsapp.com/send/?phone=59899824175&amp;text&amp;app_absent=0" class="u-btn u-btn-round u-button-style u-custom-color-6 u-hover-custom-color-7 u-radius-50 u-btn-3" target="_blank"><span class="u-icon u-icon-3"><svg class="u-svg-content" viewBox="0 0 512 512" style="width: 1em; height: 1em;"><g><path d="M13.5,188.8c5,69.9,178.9,285.9,246,305.7c31.5,9.3,64.7,14,97.3,10c22.6-2.8,50-12.1,71-27.1l-115.4-142   c-6.4,5.4-11.2,12.4-13,20.7c-2.6,11.7-0.3,26.5-10,33.6c-7,5.1-16.7,3.2-25,0.7c-40.7-12.4-144.7-141.7-148.1-184.1   c-0.7-8.6-0.5-18.5,6-24.3c9-8,22.9-2.5,34.9-2.6c8.1,0,15.7-3,22.2-7.7L64.2,29.9C46,47.1,31.9,70.9,24.6,91.6   C13.6,122.6,11.2,156.1,13.5,188.8z" id="XMLID_6_"></path><path d="M191.4,79.1c-8.4-22.8-19.9-45.6-39.5-60.1c-27.6-20.4-55-14.6-77.7,2.5l114.7,141.2   c5.2-6.5,9-14.4,10.8-22.5C204.1,119.8,198.6,98.6,191.4,79.1z" id="XMLID_5_"></path><path d="M347,323.1c-8,0-16.1,1.9-23.4,5.3L438,469.3c20.2-18.4,30.6-43.3,17-73.6c-10-22.2-29.8-38.3-50.3-51.4   C387.3,333.1,367.8,323.1,347,323.1z" id="XMLID_4_"></path><g><path d="M324.5,13.3c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.8c0.7,0.1,1.3,0.1,2,0.2c84.9,8.8,146.9,85,138.1,169.9    l39.7,4.1C509.3,120.1,431.5,24.4,324.5,13.3z" id="XMLID_3_"></path><path d="M316.3,92.8c-0.7-0.1-1.3-0.1-2-0.2l-4.1,39.7c0.7,0.1,1.3,0.1,2,0.2c41.1,4.2,71.1,41.1,66.8,82.2    l39.7,4.1C425.3,155.9,379.3,99.3,316.3,92.8z" id="XMLID_2_"></path><path d="M269.7,203.5c-2,19.2,12,36.4,31.2,38.4c19.2,2,36.4-12,38.4-31.2c2-19.2-12-36.4-31.2-38.4    C288.9,170.3,271.7,184.3,269.7,203.5z" id="XMLID_1_"></path>
 </g>
@@ -396,7 +396,7 @@ document.getElementById("bloque2").innerHTML = `
     document.getElementById("bloque3").innerHTML = `
     <h3 class="u-text u-text-custom-color-6 u-text-1">Reservations</h3>
         <p class="u-text u-text-2"> Children under 5 years free.<br>Children between 6 and 12 years old have a 50% discount.<br>
-        Foreign currency accepted.&nbsp;<br>All credit cards are accepted. We work with Visa, Mastercard and Oca.<br>
+        US dollars or Uruguayan pesos are accepted.&nbsp;<br>All credit cards are accepted. We work with Visa, Mastercard and Oca.<br>
         </p>
         <a href="https://www.brou.com.uy/cotizaciones" class="u-btn u-button-style u-none u-text-active-custom-color-2 u-text-custom-color-1 u-text-hover-custom-color-3 u-btn-1" target="_blank">SEE DATE QUOTE (BROU) <span class="u-text-custom-color-2">
             <span class="u-text-custom-color-1"></span>
