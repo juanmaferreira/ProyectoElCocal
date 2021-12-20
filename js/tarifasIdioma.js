@@ -465,9 +465,9 @@ document.getElementById("bloque2").innerHTML = `
 
 
 function cargarDatosTarifa(){
-  console.log(document.getElementById("elBajo")) ;
-  console.log(document.getElementById("elMedio")) ;
-  console.log(document.getElementById("elAlto")) ;
+  console.log(document.getElementById("elBajo").innerHTML) ;
+  console.log(document.getElementById("elMedio").innerHTML) ;
+  console.log(document.getElementById("elAlto").innerHTML) ;
 
   console.log(document.getElementById("Carpi1").innerHTML) ;
   console.log(document.getElementById("Carpi2").innerHTML) ;
