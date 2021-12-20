@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     $.getJSON("tarifas.json", function(json) {
       datosTarifa = json;
       console.log(datosTarifa); // this will show the info it in firebug console
-      console.log(document.getElementById("elBajo"));
+      cargarDatosTarifa();
     });
 });
 
@@ -92,7 +92,7 @@ function cambiarAPortugues(){
     document.getElementById("PrimerBloque").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Taxas de acampamento
     </h2>
-    <p class="u-text u-text-2">Época 2021<br>As tarifas mencionadas abaixo são por pessoa e por dia. O preço está em pesos uruguaios.
+    <p class="u-text u-text-2">Época <em id="anio1">2021</em><br>As tarifas mencionadas abaixo são por pessoa e por dia. O preço está em pesos uruguaios.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
@@ -150,7 +150,7 @@ function cambiarAPortugues(){
     </a>`;
 document.getElementById("bloque2").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Taxas de carpicabaña</h2>
-    <p class="u-text u-text-2"> Época 2021
+    <p class="u-text u-text-2"> Época <em id="anio2">2021</em>
     <br>A taxa mencionada abaixo é por dia. O preço está em pesos uruguaios.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
@@ -305,7 +305,7 @@ function cambiarAIngles(){
     document.getElementById("PrimerBloque").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Camping prices
     </h2>
-    <p class="u-text u-text-2">Season 2021<br>The rates mentioned below are per person per day. The price is in Uruguayan pesos.
+    <p class="u-text u-text-2">Season <em id="anio1">2021</em><br>The rates mentioned below are per person per day. The price is in Uruguayan pesos.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-layout-wrap-1">
       <div class="u-gutter-0 u-layout">
@@ -363,7 +363,7 @@ function cambiarAIngles(){
     </a>`;
 document.getElementById("bloque2").innerHTML = `
     <h2 class="u-text u-text-default u-text-1">Prices of carpicabañas</h2>
-    <p class="u-text u-text-2"> Season 2021
+    <p class="u-text u-text-2"> Season <em id="anio2">2021</em>
     <br>The rate mentioned below is per day. The price is in Uruguayan pesos.
     </p>
     <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
@@ -465,5 +465,14 @@ document.getElementById("bloque2").innerHTML = `
 
 
 function cargarDatosTarifa(){
-  console.log(document.getElementById("Carpi1")) ;
+  console.log(document.getElementById("elBajo")) ;
+  console.log(document.getElementById("elMedio")) ;
+  console.log(document.getElementById("elAlto")) ;
+
+  console.log(document.getElementById("Carpi1").innerHTML) ;
+  console.log(document.getElementById("Carpi2").innerHTML) ;
+
+  console.log(document.getElementById("anio1").innerHTML) ;
+  console.log(document.getElementById("anio2").innerHTML) ;
+  
 }
