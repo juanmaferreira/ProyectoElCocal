@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     $.getJSON("tarifas.json", function(json) {
       datosTarifa = json;
       console.log(datosTarifa); // this will show the info it in firebug console
-      console.log(document.body);
+      console.log(document.getElementById("elBajo"));
     });
 });
 
