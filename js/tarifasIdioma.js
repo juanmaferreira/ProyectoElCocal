@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(e){
 
     $.getJSON("tarifas.json", function(json) {
       datosTarifa = json;
-      console.log(datosTarifa); // this will show the info it in firebug console
+      
       cargarDatosTarifa();
     });
 });
