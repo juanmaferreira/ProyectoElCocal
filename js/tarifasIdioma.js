@@ -1,4 +1,9 @@
+var datosTarifa;
+
 document.addEventListener("DOMContentLoaded", function(e){ 
+ 
+  
+  
     let idiomaGuardado = localStorage.getItem("idioma");
     if(idiomaGuardado === null || idiomaGuardado === "Espaniol"){
         cambiarAEspaniol();
@@ -11,6 +16,12 @@ document.addEventListener("DOMContentLoaded", function(e){
     if(idiomaGuardado === "Ingles"){
         cambiarAIngles();
     }
+
+    $.getJSON("tarifas.json", function(json) {
+      datosTarifa = json;
+      console.log(datosTarifa); // this will show the info it in firebug console
+      console.log(document.body);
+    });
 });
 
 function cambiarIdiomaPT(){
@@ -450,4 +461,9 @@ document.getElementById("bloque2").innerHTML = `
         </p>
     `;   
 
+}
+
+
+function cargarDatosTarifa(){
+  console.log(document.getElementById("Carpi1")) ;
 }

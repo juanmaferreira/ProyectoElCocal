@@ -95,7 +95,7 @@ function cambiarAPortugues(){
     document.getElementById("respuesta1").innerHTML ="Do Terminal 3 Cruces apanhar um ônibus das empresas Cynsa, Rutas del Sol ou Cot com destino à Chuy. Apanhar o ônibus para La Esmeralda, desembarcar no km 273.100 da rota 9. Pedimos ao hóspede para dar um aviso prévio a fim de coordenar a transferência para El Cocal. ";
 
     document.getElementById("pregunta2").innerHTML = "As transferências custam dinheiro?";
-    document.getElementById("respuesta2").innerHTML ="Não, o convidado de El Cocal poderá coordenar (aviso prévio) a sua recepção na rota 9 273,100 Km a cargo de El Cocal, que o irá buscar numa carrinha. Também nos oferecemos para o levar à estrada no momento da sua partida, também gratuitamente.";
+    document.getElementById("respuesta2").innerHTML ="Não, o convidado de El Cocal poderá coordenar (aviso prévio) a sua recepção na rota 9 Km 273,100 a cargo de El Cocal, que o irá buscar numa carrinha. Também nos oferecemos para o levar à estrada no momento da sua partida, também gratuitamente.";
 
     
 
@@ -174,7 +174,7 @@ function cambiarAIngles(){
     document.getElementById("respuesta1").innerHTML ="From Terminal 3 Cruces, take a bus with the companies Cynsa, Rutas del Sol or Cot to Chuy. Take the bus to La Esmeralda, get off at km 273.100 of Route 9. We ask the guest to give advance notice in order to coordinate the transfer to El Cocal.";
 
     document.getElementById("pregunta2").innerHTML = "Do the transfers cost money?";
-    document.getElementById("respuesta2").innerHTML ="No, the guest from El Cocal can coordinate (prior notice) his reception on route 9 273.100 Km in charge of El Cocal, who will pick him up in a van. We also offer to take you to the road at the moment of your departure, also free of charge.";
+    document.getElementById("respuesta2").innerHTML ="No, the guest from El Cocal can coordinate (prior notice) his reception on route 9 Km 273.100 in charge of El Cocal, who will pick him up in a van. We also offer to take you to the road at the moment of your departure, also free of charge.";
 
     
 
